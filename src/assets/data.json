@@ -1,0 +1,123 @@
+[
+      {
+        "picture": "https://i.ibb.co/mF80nL9/Health.png",
+        "title": "Healthy Living Guide",
+        "category": "Health",
+        "category_bg": "#0052FF",
+        "card_bg": "#0052FF26",
+        "text_button_bg": "#0052FF",
+        "description": "A comprehensive guide to living a healthier life, covering nutrition, fitness, and mental well-being.",
+        "price": "$19.99"
+      },
+      {
+        "picture": "https://i.ibb.co/hKVkdGq/Education.png",
+        "title": "Online Learning Course",
+        "category": "Education",
+        "category_bg": "#FF444A",
+        "card_bg": "#FF444A26",
+        "text_button_bg": "#FF444A",
+        "description": "Enroll in this online course to expand your knowledge in a variety of subjects from top universities.",
+        "price": "$49.99"
+      },
+      {
+        "picture": "https://i.ibb.co/W2pkhsC/Clothing.png",
+        "title": "Stylish Denim Jacket",
+        "category": "Clothing",
+        "category_bg": "#79C23F",
+        "card_bg": "#79C23F26",
+        "text_button_bg": "#79C23F",
+        "description": "Stay fashionable with this trendy denim jacket, perfect for all seasons.",
+        "price": "$59.99"
+      },
+      {
+        "picture": "https://i.ibb.co/3zn6518/Food.png",
+        "title": "Gourmet Pasta Set",
+        "category": "Food",
+        "category_bg": "#F87147",
+        "card_bg": "#F8714726",
+        "text_button_bg": "#F87147",
+        "description": "Indulge in the flavors of Italy with this gourmet pasta set, complete with handmade pasta and sauces.",
+        "price": "$29.99"
+      },
+      {
+        "picture": "https://i.ibb.co/mF80nL9/Health.png",
+        "title": "Fitness Tracker Watch",
+        "category": "Health",
+        "category_bg": "#0052FF",
+        "card_bg": "#0052FF26",
+        "text_button_bg": "#0052FF",
+        "description": "Monitor your health and track your fitness goals with this advanced fitness tracker watch.",
+        "price": "$79.99"
+      },
+      {
+        "picture": "https://i.ibb.co/hKVkdGq/Education.png",
+        "title": "Language Learning App",
+        "category": "Education",
+        "category_bg": "#FF444A",
+        "card_bg": "#FF444A26",
+        "text_button_bg": "#FF444A",
+        "description": "Learn a new language with ease using this interactive language learning app.",
+        "price": "$29.99"
+      },
+      {
+        "picture": "https://i.ibb.co/W2pkhsC/Clothing.png",
+        "title": "Designer Dress",
+        "category": "Clothing",
+        "category_bg": "#79C23F",
+        "card_bg": "#79C23F26",
+        "text_button_bg": "#79C23F",
+        "description": "Elevate your style with this elegant designer dress, perfect for special occasions.",
+        "price": "$149.99"
+      },
+      {
+        "picture": "https://i.ibb.co/3zn6518/Food.png",
+        "title": "Organic Fruit Basket",
+        "category": "Food",
+        "category_bg": "#F87147",
+        "card_bg": "#F8714726",
+        "text_button_bg": "#F87147",
+        "description": "Enjoy the goodness of organic fruits with this fresh and delicious fruit basket.",
+        "price": "$39.99"
+      },
+      {
+        "picture": "https://i.ibb.co/mF80nL9/Health.png",
+        "title": "Yoga Mat and Accessories",
+        "category": "Health",
+        "category_bg": "#0052FF",
+        "card_bg": "#0052FF26",
+        "text_button_bg": "#0052FF",
+        "description": "Enhance your yoga practice with this high-quality yoga mat and essential accessories.",
+        "price": "$49.99"
+      },
+      {
+        "picture": "https://i.ibb.co/hKVkdGq/Education.png",
+        "title": "Science Experiment Kit",
+        "category": "Education",
+        "category_bg": "#FF444A",
+        "card_bg": "#FF444A26",
+        "text_button_bg": "#FF444A",
+        "description": "Explore the world of science with this hands-on science experiment kit for kids and adults alike.",
+        "price": "$34.99"
+      },
+      {
+        "picture": "https://i.ibb.co/W2pkhsC/Clothing.png",
+        "title": "Casual T-Shirt",
+        "category": "Clothing",
+        "category_bg": "#79C23F",
+        "card_bg": "#79C23F26",
+        "text_button_bg": "#79C23F",
+        "description": "Stay comfortable and stylish with this casual and versatile t-shirt.",
+        "price": "$19.99"
+      },
+      {
+        "picture": "https://i.ibb.co/3zn6518/Food.png",
+        "title": "Gourmet Coffee Beans",
+        "category": "Food",
+        "category_bg": "#F87147",
+        "card_bg": "#F8714726",
+        "text_button_bg": "#F87147",
+        "description": "Experience the rich flavors of gourmet coffee with these premium coffee beans.",
+        "price": "$12.99"
+      }
+    ]
+  
