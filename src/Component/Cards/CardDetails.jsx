@@ -1,8 +1,14 @@
-import { Link, useLoaderData } from "react-router-dom";
+import { Link, useLoaderData, useParams } from "react-router-dom";
 
 const CardDetails = () => {
     const cards = useLoaderData();
-    const { picture, price, title, description,text } = cards[0];
+    
+
+    const {id} = useParams();
+
+    const cardToShow = cards.find(card => card.id == id);
+    const { picture, price, title, description,text } = cardToShow;
+
     const colorVariants = {
         '#0052FF' : 'bg-[#0052FF]',
         '#FF444A' : 'bg-[#FF444A]',

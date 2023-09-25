@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 //https://youtu.be/guh9qzxkb1o?si=ljMXJib1rQYg18pz&t=93
 const Card = ({card}) => {
 
@@ -20,7 +21,9 @@ const Card = ({card}) => {
       }
 
     return (
-        <div className="mx-auto">
+<div>
+    <Link to={`/${card.id}`}>
+    <div className="mx-auto">
             <div className={`card card-compact w-[300px] ${colorVariants[card.card_bg]} shadow-xl`}>
                 <figure><img className="w-full" src={card.picture} alt="Shoes" /></figure>
                 <div className="card-body">
@@ -28,7 +31,8 @@ const Card = ({card}) => {
                     <h2 className={`card-title text-xl font-[600] ${colorVariants[card.text]}`}>{card.title}</h2>
                 </div>
             </div>
-        </div>
+        </div></Link>
+</div>
     );
 };
 
