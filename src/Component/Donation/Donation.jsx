@@ -10,7 +10,7 @@ const Donation = () => {
 
             </div>
             <div className="flex mt-8">
-            <button className="btn w-28 btn-success mx-auto mb-10">See All</button>
+            <button className="btn w-28 btn-success mx-auto mb-10 text-white">See All</button>
             </div>
         </div>
     );
