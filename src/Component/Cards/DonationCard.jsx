@@ -6,7 +6,7 @@ const DonationCard = ({cards}) => {
             <div className=''>
                 <img className='max-w-full' src={square_pic} alt="" />
             </div>
-            <div className='bg-[#0052FF26] px-6 flex flex-col flex-grow justify-center '>
+            <div className='bg-[#0052FF26] px-6 flex flex-col flex-grow justify-center rounded-lg'>
                 <p className='md:mb-2  text-sm font-[500] text-[#0052FF] bg-[#0052FF33] max-w-fit px-3 py-1 rounded-md'>Health</p>
                 <h3 className='md:mb-2 font-semibold'>Clean Water for Children</h3>
                 <h5 className='md:mb-4 text-[#0052FF] font-semibold'>$200</h5>
