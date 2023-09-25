@@ -22,7 +22,7 @@ const Card = ({card}) => {
     return (
         <div className="mx-auto">
             <div className={`card card-compact w-[300px] ${colorVariants[card.card_bg]} shadow-xl`}>
-                <figure><img className="w-full" src="https://i.ibb.co/mF80nL9/Health.png" alt="Shoes" /></figure>
+                <figure><img className="w-full" src={card.picture} alt="Shoes" /></figure>
                 <div className="card-body">
                     <p className={`text-sm font-[500] ${colorVariants[card.text]} ${colorVariants[card.category_bg]} max-w-fit px-3 py-1 rounded-md`}>{card.category}</p>
                     <h2 className={`card-title text-xl font-[600] ${colorVariants[card.text]}`}>{card.title}</h2>
