@@ -3,6 +3,7 @@ import MainLayout from "../Component/MainLayout/MainLayout";
 import Home from "../Component/Home/Home";
 import Donation from "../Component/Donation/Donation";
 import Statistics from "../Component/Statistics/Statistics";
+import DonationCardDetails from "../Component/Cards/DonationCardDetails";
 
 const myCreatedRoute = createBrowserRouter([
     {
@@ -20,9 +21,13 @@ const myCreatedRoute = createBrowserRouter([
                 loader: () => fetch('/public/data.json')
             },
             {
+                path: '/donation/:id',
+                element: <DonationCardDetails></DonationCardDetails>
+            },
+            {
                 path: '/statistics',
                 element: <Statistics></Statistics>
-            }
+            },
         ]
     }
 ])
