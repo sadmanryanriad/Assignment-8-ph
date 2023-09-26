@@ -1,5 +1,5 @@
 import { useLoaderData, useParams } from "react-router-dom";
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 
 import 'react-toastify/dist/ReactToastify.css';
 import { getLocalStorageDonationId, saveToLocalStorage } from "../../Utilities/localStorage";
@@ -53,7 +53,6 @@ const CardDetails = () => {
                 <h1 className="text-4xl font-semibold mt-12 mb-6">{title}</h1>
                 <p className="text-base mb-28">{description}</p>
             </div>
-            <ToastContainer></ToastContainer>
         </div>
     );
 };
