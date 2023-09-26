@@ -21,9 +21,9 @@ const Card = ({card}) => {
       }
 
     return (
-<div>
+<div className="mx-auto">
     <Link to={`/${card.id}`}>
-    <div className="mx-auto">
+    <div>
             <div className={`card card-compact w-[300px] ${colorVariants[card.card_bg]} shadow-xl`}>
                 <figure><img className="w-full" src={card.picture} alt="Shoes" /></figure>
                 <div className="card-body">
