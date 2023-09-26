@@ -3,7 +3,6 @@ import { getLocalStorageDonationId } from "../../Utilities/localStorage";
 
 const Statistics = () => {
 
-
         const storedIdLength = getLocalStorageDonationId().length;
 
     return (

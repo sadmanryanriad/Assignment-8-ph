@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 
 const PieChartPic = ({storedIdLength}) => {
 const data = [
-  { name: 'Total Donation', value: 12 },
+  //ei simple math ta korte jeye obstha kharap hoa gechilo
+  { name: 'Total Donation', value: (12-storedIdLength) },
   { name: 'Your Donation', value: storedIdLength },
 ];
 const COLORS = ['#FF444A', '#00C49F'];
