@@ -21,7 +21,7 @@ const Donation = () => {
 
     return (
         <div>
-            {display ?
+            {display.length ?
                 <div>
                     <div className="mt-20 max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-5">
                         {
@@ -30,9 +30,9 @@ const Donation = () => {
                         }
                     </div>
                     <div className="flex mt-8">
-                        <button onClick={handleSeeButton} className={`btn w-28 btn-success mx-auto mb-10 text-white ${flag ? '' : 'hidden'}`}>
+                        {display.length>4 && <button onClick={handleSeeButton} className={`btn w-28 btn-success mx-auto mb-10 text-white ${flag ? '' : 'hidden'}`}>
                             See All
-                        </button>
+                        </button>} 
                     </div>
                 </div>
                 :
