@@ -30,7 +30,9 @@ const Donation = () => {
                         }
                     </div>
                     <div className="flex mt-8">
-                        {display.length>4? <button onClick={handleSeeButton} className="btn w-28 btn-success mx-auto mb-10 text-white">{flag ? 'See All' : 'See less'}</button>: ''}
+                        <button onClick={handleSeeButton} className={`btn w-28 btn-success mx-auto mb-10 text-white ${flag ? '' : 'hidden'}`}>
+                            See All
+                        </button>
                     </div>
                 </div>
                 :
