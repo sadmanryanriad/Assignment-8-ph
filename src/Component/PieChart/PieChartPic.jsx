@@ -1,11 +1,12 @@
 import { PieChart, Pie, Cell } from "recharts";
+import PropTypes from 'prop-types';
 
-const PieChartPic = () => {
+const PieChartPic = ({storedIdLength}) => {
 const data = [
-  { name: 'Group A', value: 400 },
-  { name: 'Group B', value: 300 },
+  { name: 'Total Donation', value: 12 },
+  { name: 'Your Donation', value: storedIdLength },
 ];
-const COLORS = ['#0088FE', '#00C49F'];
+const COLORS = ['#FF444A', '#00C49F'];
 
 const RADIAN = Math.PI / 180;
 const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, percent }) => {
@@ -39,5 +40,9 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
     </PieChart>
     );
 };
+
+PieChartPic.propTypes = {
+  storedIdLength: PropTypes.number
+}
 
 export default PieChartPic;
