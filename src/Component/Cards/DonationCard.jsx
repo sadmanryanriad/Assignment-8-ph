@@ -32,7 +32,7 @@ const DonationCard = ({card}) => {
 
         <div className='flex '>
             <div className=''>
-                <img className='max-w-full' src={square_pic} alt="" />
+                <img className='max-w-full rounded-l-lg' src={square_pic} alt="" />
             </div>
             <div className={`${colorVariants[card_bg]} px-6 flex flex-col flex-grow justify-center rounded-r-lg`}>
                 <p className={`md:mb-2  text-sm font-[500] ${colorVariants[text]} ${colorVariants[category_bg]} max-w-fit px-3 py-1 rounded-md`}>{category}</p>
