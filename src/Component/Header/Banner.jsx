@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 
-const Banner = ({setInputText}) => {
+const Banner = ({ setInputText }) => {
 
     let text = '';
-    const change = (e)=>{
+    const change = (e) => {
         text = e.target.value;
     }
     const handleSearchButton = () => {
